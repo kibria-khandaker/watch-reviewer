@@ -4,9 +4,9 @@ import { TiSocialFacebook, TiSocialGithub, TiSocialLinkedin, TiSocialSkype, TiSo
 const Footer = () => {
     return (
         <footer className='bg-slate-100  w-full py-8 '>
-            <div className='max-w-screen-xl mx-auto px-4 flex justify-around items-center'>
-                <p className=' text-xs'> Copyright &copy;Watch Reviewer, All Rights Reserved</p>
-                <p className='flex justify-end items-center gap-6'> 
+            <div className='max-w-screen-xl mx-auto px-4 flex-auto md:flex justify-around items-center'>
+                <p className=' text-xs  text-center py-2'> Copyright &copy;Watch Reviewer, All Rights Reserved</p>
+                <p className='flex justify-center md:justify-end items-center gap-6'> 
                     <TiSocialFacebook className='cursor-pointer border border-sky-400 rounded-full' /> 
                     <TiSocialSkype className='cursor-pointer border border-sky-400 rounded-full' />
                     <TiSocialTwitter className='cursor-pointer border border-sky-400 rounded-full' />

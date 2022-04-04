@@ -3,11 +3,11 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className='w-full bg-white'>
-            <div className='max-w-screen-xl mx-auto p-4'>
-                <div className=' w-4/6 mx-auto'>
+            <div className='max-w-screen-xl mx-auto p-2 md:p-4'>
+                <div className='w-auto md:w-4/6 mx-auto'>
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-sky-400'>Qustion 1: </span> What is the Context API and How does work?</h2>
+                        <h2 className='text-2xl md:text-4xl  font-medium'> <span className='text-sky-400'>Qustion 1: </span> What is the Context API and How does work?</h2>
                         <img className='  py-6 px-6 ' src="https://dmitripavlutin.com/90649ae4bdf379c482ad24e0dd220bc4/react-context-3.svg" alt="" />
                         <p className=' text-lg'> <span className='text-sky-400 font-bold'>Answer: </span>  if we know about global scope, i think React Context API work like global scope. This is the alternative to "prop drilling". <br />
                             react props system follow parent to child by child for passing data,
@@ -17,7 +17,7 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-sky-400'> Qustion 2: </span> Semantic tags? </h2>
+                        <h2 className='text-2xl md:text-4xl font-medium'> <span className='text-sky-400'> Qustion 2: </span> Semantic tags? </h2>
                         <img className='mx-auto  py-8 px-6 ' src="https://www.w3schools.com/html/img_sem_elements.gif" alt="" />
 
                         <p>  <span className='text-sky-400 font-bold'>Answer: </span>
@@ -29,9 +29,9 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium mb-10'> <span className='text-sky-400'> Qustion 3: </span> Difference inline Vs block Vs inline-block </h2>
+                        <h2 className='text-2xl md:text-4xl font-medium mb-10'> <span className='text-sky-400'> Qustion 3: </span> Difference inline Vs block Vs inline-block </h2>
                         <p><span className='text-sky-400 font-bold'>Answer: </span></p>
-                        <div className=' grid grid-cols-3'>
+                        <div className=' grid grid-cols-1 lg:grid-cols-3'>
                             
                             <p className=' border p-2'>
                                 <p className='text-center font-bold'>inline</p>
