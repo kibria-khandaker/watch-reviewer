@@ -3,7 +3,7 @@ import { VscCommentDiscussion } from "react-icons/vsc";
 import { useNavigate } from "react-router-dom";
 import useReviews from './../../hooks/useReviews';
 import Rating from 'react-rating';
-import { BsStarFill } from "react-icons/bs";
+import { ImStarFull } from "react-icons/im";
 
 const Home = () => {
 
@@ -37,10 +37,10 @@ const Home = () => {
                                         <h3 className='font-medium pb-3'>{review.name}</h3>
                                         <p className='font-light text-xs'> Customer id : {review.id}</p>
                                         <p>
-                                            <Rating
+                                        <Rating
                                                 initialRating={review.rate}
-                                                emptySymbol={<BsStarFill />}
-                                                fullSymbol={<BsStarFill style={{ color: 'goldenrod' }} />}
+                                                emptySymbol={<ImStarFull />}
+                                                fullSymbol={<ImStarFull style={{ color: 'goldenrod' }} />}
                                                 readonly
                                             ></Rating>
                                         </p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import useReviews from './../../hooks/useReviews';
 import Rating from 'react-rating';
-import { BsStarFill } from "react-icons/bs";
+import { ImStarFull } from "react-icons/im";
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
@@ -21,8 +21,8 @@ const Reviews = () => {
                                         <p>
                                             <Rating
                                                 initialRating={review.rate}
-                                                emptySymbol={<BsStarFill />}
-                                                fullSymbol={<BsStarFill style={{ color: 'goldenrod' }} />}
+                                                emptySymbol={<ImStarFull />}
+                                                fullSymbol={<ImStarFull style={{ color: 'goldenrod' }} />}
                                                 readonly
                                             ></Rating>
                                         </p>
@@ -30,7 +30,7 @@ const Reviews = () => {
                                 </div>
                                 <p className='mt-5'>
                                     <span className=' '>Customer Say:</span>
-                                    <span className='indent-8 text-sm'>" {review.desc} "</span>
+                                    <span className='indent-8 text-sm'> " {review.desc} "</span>
                                 </p>
                             </div>
                         ))
