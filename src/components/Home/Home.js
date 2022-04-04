@@ -9,7 +9,8 @@ const Home = () => {
                 </div>
                 <div className='w-auto md:w-1/2 text-center md:text-right'>
                     <h2 className='text-4xl lg:text-6xl font-bold my-10 '>Watch <span className=' text-cyan-500'>save time</span> And Enhances personality </h2>
-                    <p className=' text-xl mg:text-2xl '>Watches not only remind you about your time, and that you need to value it greatly, but watches also gives you the opportunity to share your passion for time with like-minded people who also carry the passion for timepieces.</p>
+                    <p className=' text-xl mg:text-2xl '> Watches not only remind you about your time, and that you need to value it greatly, but watches also gives you the occasion to partake in your passion for time with like-inclined people who also carry the passion for timekeepers.
+</p>
                 </div>
             </div>
             <div className='max-w-screen-xl mx-auto p-4'>
