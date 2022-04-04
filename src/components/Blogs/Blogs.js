@@ -7,9 +7,9 @@ const Blogs = () => {
                 <div className=' w-4/6 mx-auto'>
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'>Qustion 1: </span> What is the Context API and How does work?</h2>
+                        <h2 className=' text-4xl font-medium'> <span className='text-sky-400'>Qustion 1: </span> What is the Context API and How does work?</h2>
                         <img className='  py-6 px-6 ' src="https://dmitripavlutin.com/90649ae4bdf379c482ad24e0dd220bc4/react-context-3.svg" alt="" />
-                        <p className=' text-lg'> <span className='text-cyan-500 font-bold'>Answer: </span>  if we know about global scope, i think React Context API work like global scope. This is the alternative to "prop drilling". <br />
+                        <p className=' text-lg'> <span className='text-sky-400 font-bold'>Answer: </span>  if we know about global scope, i think React Context API work like global scope. This is the alternative to "prop drilling". <br />
                             react props system follow parent to child by child for passing data,
                             But 'react Context API' directly able to pass data any where using <span className='font-medium'>createContext()</span> and by pass with <span className='font-medium'>Value</span>. every component able to receive directly with <span className='font-medium'>useContext()</span>, here no need props by props step. But one thing very important : and need Bound a main content with our declare Context name the main component.
                         </p>
@@ -17,10 +17,10 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'> Qustion 2: </span> Semantic tags? </h2>
+                        <h2 className=' text-4xl font-medium'> <span className='text-sky-400'> Qustion 2: </span> Semantic tags? </h2>
                         <img className='mx-auto  py-8 px-6 ' src="https://www.w3schools.com/html/img_sem_elements.gif" alt="" />
 
-                        <p>  <span className='text-cyan-500 font-bold'>Answer: </span>
+                        <p>  <span className='text-sky-400 font-bold'>Answer: </span>
                             Semantics tags are those tags which modern browsers can understand what kind of particular section the web developer used. This tags has their own indentications in browser, but their visual output may be same somnetimes. This tags has been updated in html 5 from previous version. For example, In previous version of html, there was only 1 section tag which was <i>{`"<div>"`}</i> . Developer used only div tag for every section in a website and browser couldn't identify the section's identity. But now, html 5 has added some browser friendly semantic tags. Like <i>{`<section> `}</i>for a normal section, <i>{`<nav>`}</i> for navigation bar, <i>{`<form>`}</i> for a form section, <i>{`<footer>`}</i> for a footer section etc. There are also some semantic tags for content like <i>{`<h1>, <h2>,...,<h5>`}</i> and they have different outputs. <br /><br />
                             Here some semantic elements we use it different section of a web page
                             <i>{` <article>  <aside>  <details> <figcaption> <figure>  <footer> <header>  <main> <mark> <nav>  <section>  <summary>  <time> `}</i>
@@ -29,8 +29,8 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium mb-10'> <span className='text-cyan-500'> Qustion 3: </span> Difference inline Vs block Vs inline-block </h2>
-                        <p><span className='text-cyan-500 font-bold'>Answer: </span></p>
+                        <h2 className=' text-4xl font-medium mb-10'> <span className='text-sky-400'> Qustion 3: </span> Difference inline Vs block Vs inline-block </h2>
+                        <p><span className='text-sky-400 font-bold'>Answer: </span></p>
                         <div className=' grid grid-cols-3'>
                             
                             <p className=' border p-2'>
