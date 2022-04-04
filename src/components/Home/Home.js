@@ -2,7 +2,8 @@ import React from 'react';
 import { VscCommentDiscussion } from "react-icons/vsc";
 import { useNavigate } from "react-router-dom";
 import useReviews from './../../hooks/useReviews';
-
+import Rating from 'react-rating';
+import { BsStarFill } from "react-icons/bs";
 
 const Home = () => {
 
@@ -24,7 +25,6 @@ const Home = () => {
                 </div>
             </div>
 
-
             <div className='max-w-screen-xl mx-auto p-2 md:p-4'>
                 <h2 className=' text-center text-2xl md:text-4xl mt-36'> Customer Reviews (3) </h2>
                 <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-20 '>
@@ -36,7 +36,14 @@ const Home = () => {
                                     <div>
                                         <h3 className='font-medium pb-3'>{review.name}</h3>
                                         <p className='font-light text-xs'> Customer id : {review.id}</p>
-                                        <p className=' text-sm'> Rating : {review.rate}</p>
+                                        <p>
+                                            <Rating
+                                                initialRating={review.rate}
+                                                emptySymbol={<BsStarFill />}
+                                                fullSymbol={<BsStarFill style={{ color: 'goldenrod' }} />}
+                                                readonly
+                                            ></Rating>
+                                        </p>
                                     </div>
                                 </div>
                                 <p className='mt-5'>
@@ -44,7 +51,6 @@ const Home = () => {
                                     <span className='indent-8 text-sm'>" {review.desc} "</span>
                                 </p>
                             </div>
-
                         )).slice(0, 3)
                     }
                 </div>
