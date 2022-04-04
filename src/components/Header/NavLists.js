@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavLists = () => {
     return (
         <nav className='menuList flex flex-col md:flex-row  gap-4 text-xl'>
-            <Link to="/">Home</Link>
-            <Link to="/reviews">reviews</Link>
-            <Link to="/dashboard">dashboard</Link>
-            <Link to="/blogs">blogs</Link>
-            <Link to="/about">about</Link>
+            <NavLink className={({ isActive }) => isActive ? 'text-cyan-500 underline decoration-wavy' : ' text-black'} to="/">Home</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'text-cyan-500 underline decoration-wavy' : ' text-black'} to="/reviews">reviews</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'text-cyan-500 underline decoration-wavy' : ' text-black'} to="/dashboard">dashboard</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'text-cyan-500 underline decoration-wavy' : ' text-black'} to="/blogs">blogs</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'text-cyan-500 underline decoration-wavy' : ' text-black'} to="/about">about</NavLink>
         </nav>
     );
 };
