@@ -22,7 +22,7 @@ const Reviews = () => {
                                 </div>
                                 <p className='mt-5'>
                                     <span className=' '>Customer Say:</span>
-                                    <blockquote className='indent-8 text-sm'>" {review.desc} "</blockquote>
+                                    <span className='indent-8 text-sm'>" {review.desc} "</span>
                                 </p>
                             </div>
 

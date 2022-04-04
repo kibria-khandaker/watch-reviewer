@@ -30,7 +30,7 @@ const Home = () => {
                 <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-20 '>
                     {
                         reviews.map(review => (
-                            <div className='border rounded-lg p-2 md:p-5'>
+                            <div key={review.id} className='border rounded-lg p-2 md:p-5'>
                                 <div className='flex items-center gap-4'>
                                     <img className=' w-20 h-20 object-cover border-4 border-sky-400 rounded-full' src={review.img} alt="imageReviewer" />
                                     <div>
@@ -41,7 +41,7 @@ const Home = () => {
                                 </div>
                                 <p className='mt-5'>
                                     <span className=' '>Customer Say:</span>
-                                    <blockquote className='indent-8 text-sm'>" {review.desc} "</blockquote>
+                                    <span className='indent-8 text-sm'>" {review.desc} "</span>
                                 </p>
                             </div>
 
