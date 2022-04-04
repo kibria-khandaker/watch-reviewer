@@ -4,13 +4,11 @@
 
 ### My project Live link, And click [Here](https://vermillion-cocada-8ce3b2.netlify.app/) to view it in your browser.
 
-or
-
-### Copy/Click the link [https://vermillion-cocada-8ce3b2.netlify.app/](https://vermillion-cocada-8ce3b2.netlify.app/)
+###  Or, Copy/Click the link [https://vermillion-cocada-8ce3b2.netlify.app/](https://vermillion-cocada-8ce3b2.netlify.app/)
 
 <br /><br /><br />
 
-> ## Some Notes About My React (Watch Reviewer) Project
+> #### Some notes about My (Watch Reviewer) React Project
 
 - manege for navigation i used 'react-router-dom'
 - For all kind of icon i used 'react-icons'
