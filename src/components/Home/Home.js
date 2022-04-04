@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className='w-full bg-white py-12'>
 
-            <div className='max-w-screen-xl  p-2 md:p-4 flex flex-col md:flex-row justify-center md:justify-between items-center'>
+            <div className='max-w-screen-xl   mx-auto  p-2 md:p-4 flex flex-col md:flex-row justify-center md:justify-between items-center'>
                 <div className='w-auto md:w-1/2'>
                     <img className=' max-h-[500px]  mx-auto md:mx-0' src="https://raw.githubusercontent.com/kibria-khandaker/api_for_watch_review/master/watch.jpg" alt="watchImage" />
                 </div>
