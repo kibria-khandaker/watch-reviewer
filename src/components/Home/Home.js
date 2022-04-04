@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className='w-full bg-white py-12'>
 
-            <div className='max-w-screen-xl mx-auto p-2 md:p-4 md:flex justify-center md:justify-between items-center'>
+            <div className='max-w-screen-xl  p-2 md:p-4 flex flex-col md:flex-row justify-center md:justify-between items-center'>
                 <div className='w-auto md:w-1/2'>
                     <img className=' max-h-[500px]  mx-auto md:mx-0' src="https://raw.githubusercontent.com/kibria-khandaker/api_for_watch_review/master/watch.jpg" alt="watchImage" />
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
                     {
                         reviews.map(review => (
                             <div key={review.id} className='border rounded-lg p-2 md:p-5'>
-                                <div className='flex items-center gap-4'>
+                                <div className='flex flex-col md:flex-row  items-center gap-4'>
                                     <img className=' w-20 h-20 object-cover border-4 border-sky-400 rounded-full' src={review.img} alt="imageReviewer" />
                                     <div>
                                         <h3 className='font-medium pb-3'>{review.name}</h3>
