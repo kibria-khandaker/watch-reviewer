@@ -7,7 +7,7 @@ const Blogs = () => {
                 <div className=' w-4/6 mx-auto'>
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'>Qustion: </span> What is the Context API and How does work?</h2>
+                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'>Qustion 1: </span> What is the Context API and How does work?</h2>
                         <img className='  py-6 px-6 ' src="https://dmitripavlutin.com/90649ae4bdf379c482ad24e0dd220bc4/react-context-3.svg" alt="" />
                         <p className=' text-lg'> <span className='text-cyan-500 font-bold'>Answer: </span>  if we know about global scope, i think React Context API work like global scope. This is the alternative to "prop drilling". <br />
                             react props system follow parent to child by child for passing data,
@@ -17,7 +17,7 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'> Qustion: </span> Semantic tags? </h2>
+                        <h2 className=' text-4xl font-medium'> <span className='text-cyan-500'> Qustion 2: </span> Semantic tags? </h2>
                         <img className='mx-auto  py-8 px-6 ' src="https://www.w3schools.com/html/img_sem_elements.gif" alt="" />
 
                         <p>  <span className='text-cyan-500 font-bold'>Answer: </span>
@@ -29,7 +29,7 @@ const Blogs = () => {
                     <hr />
 
                     <div className='py-10'>
-                        <h2 className=' text-4xl font-medium mb-10'> <span className='text-cyan-500'> Qustion: </span> Difference inline Vs block Vs inline-block </h2>
+                        <h2 className=' text-4xl font-medium mb-10'> <span className='text-cyan-500'> Qustion 3: </span> Difference inline Vs block Vs inline-block </h2>
                         <p><span className='text-cyan-500 font-bold'>Answer: </span></p>
                         <div className=' grid grid-cols-3'>
                             
